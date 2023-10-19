@@ -73,7 +73,7 @@ if st.session_state['leaves']:
 
 if st.session_state['leaves'] and sd.button('Clear leaves'):
     st.session_state['leaves'] = []
-    st.experimental_rerun()
+    st.rerun()
     
 sim_date = sim_starting_date_input
 sim_Total_classes_attended = sim_starting_classes_attended_input
