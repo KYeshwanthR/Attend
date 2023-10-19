@@ -8,7 +8,7 @@ import datetime
 from datetime import datetime as dt
 
 sd = st.sidebar
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide',page_title='Attendance')
 
 skip_days_df = pd.read_csv('HL.csv')
 
